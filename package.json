@@ -2,10 +2,19 @@
   "name": "course-directory",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/",
+  "main": "server.js",
   "devDependencies": {
     "react-scripts": "1.0.6"
   },
+  "engines": {
+    "node": "12.16.0",
+    "npm": "6.13.4"
+  },
   "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "path": "^0.12.7",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1"
